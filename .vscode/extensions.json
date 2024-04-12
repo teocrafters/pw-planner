@@ -2,6 +2,8 @@
   "recommendations": [
     "bradlc.vscode-tailwindcss",
     "seatonjiang.gitmoji-vscode",
-    "vue.volar"
+    "vue.volar",
+    "dbaeumer.vscode-eslint",
+    "biomejs.biome"
   ]
 }
