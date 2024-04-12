@@ -1,75 +1,54 @@
-# Nuxt 3 Minimal Starter
-
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# pw-planner
 
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+pnpm i
 ```
 
-## Development Server
+### Development Server
 
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
 pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+### Production
 
 Build the application for production:
 
 ```bash
-# npm
-npm run build
-
-# pnpm
 pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
 Locally preview production build:
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
 pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Development
+
+### Stack
+
+Both frontend and backend part of the application is using the Nuxt 3 meta-framework. Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+
+### Git
+
+Commits follow the [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) and [gitmoji](https://gitmoji.dev/). The [commitlint](https://commitlint.js.org/) and [husky](https://typicode.github.io/husky/) keep on guard on following those rules.
+
+While you're developing some new functionalities or bug fixes please follow the GitHub Flow and use those prefixes on branch names:
+
+| Type of change | Prefix |
+|----------------|--------|
+| Feature        | feat/  |
+| Bug fix        | fix/   |
+| CI/CD changes  | ci/    |
+| Other stuff    | chore/ |
+
+## Deployment
+
+TBD
